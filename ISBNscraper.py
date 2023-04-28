@@ -48,7 +48,6 @@ class Library(tk.Tk):
             authors = book['Authors']
             year = book['Year']
             publisher = book['Publisher']
-            # author = authors.pop(0)
             auth_string = ', '.join(authors)
 
         else:
